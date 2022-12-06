@@ -6,6 +6,5 @@ document.addEventListener('visibilitychange', function(){
          window.location.reload();
          var warn = document.getElementById("warning");
          warn.style.display="block";
-         alert("Habis kemana? Ngulang lagi soalnya.")
   }
 });
