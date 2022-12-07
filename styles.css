@@ -1,4 +1,8 @@
 /* Place your CSS styles in this file */
+html {
+  /* Disables pull-to-refresh but allows overscroll glow effects. */
+  overscroll-behavior-y: contain;
+}
 body{
     font-family: "Comfortaa", cursive;
     background-color: #111775;
