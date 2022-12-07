@@ -1,0 +1,134 @@
+/* Place your CSS styles in this file */
+body{
+    font-family: "Comfortaa", cursive;
+    background-color: #111775;
+}
+.button{
+        font-family: "Comfortaa", cursive;
+}
+h1 {
+text-align: center;
+font-weight: bold;
+}
+
+#topbar{
+padding: 5px 30px 5px 30px;
+margin: -7px -5px 0 -5px;
+}
+#contents{
+    margin-top: 20px;
+}
+
+#tempatTombol:active{
+    background-color: #2630bb;
+}
+.white-text {
+color: aliceblue;
+}
+.purple{
+background-color: #3c31a1;
+}
+.round-corner{
+border-radius: 10px;
+}
+.menu-purple{
+background-color: #192196;
+padding: 10px;
+}
+.menu-red{
+    background-color: #c53030;
+    padding: 10px;
+}
+.menu-pink{
+background-color: #c53094;
+padding: 10px;
+}
+.menu-green{
+background-color: #19b46c;
+padding: 10px;
+}
+.circle{
+border-radius: 30px;
+
+}
+.circle-purple{
+background-color: #253ab4;
+   
+}
+.circle-pink{
+background-color: #c53094;
+}
+.circle-green{
+background-color: #19b46c;
+}
+.button-center{
+margin: 0 20px 0 20px;
+}
+.circle-center{
+text-align: center;
+padding: 15px;
+margin: 0px 130px;
+}
+.center{
+    text-align: center;
+}
+.margin-center{
+    margin: 0 400px;
+    padding: 30px;
+}
+.soal-iframe{
+    margin: 0 350px;
+}
+@media screen and (max-width: 970px) {
+    .margin-center{
+        margin: 0 200px;
+        padding: 20px;
+    }
+    iframe{
+        width: 580px;
+    }
+    .soal-iframe{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .margin-center{
+        margin: 0 50px;
+        padding: 20px;
+    }
+    iframe{
+        width: 400px;
+    }
+    .soal-iframe{
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    iframe{
+        width: 480px;
+    }
+    .soal-iframe{
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 360px) {
+
+    iframe{
+        width: 350px;
+    }
+    .soal-iframe{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    iframe{
+        width: 270px;
+    }
+    .soal-iframe{
+        margin: 0px;
+    }
+}

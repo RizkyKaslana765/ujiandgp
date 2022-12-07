@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remedial DGP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <script src="tab-reload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="white-text">
+    
+    <div id="topbar" class="purple white-text">
+        <h1 class="topbarText"> Remed DGP untuk nilai 70 - 79 </h1>
+    </div>
+    <div id="contents">
+        <div id="pageOne">
+            <div id="tempatTombol" class="menu-purple round-corner" >
+                <a id="button1" href="javascript:void(0)" onclick="gachaSoal()"  style="text-decoration: none; color:aliceblue"> <h1> Tap untuk mendapatkan soal </h1></a>
+            </div>
+            <div id="gotSoalPink" style="margin-top: 20px">
+                <!-- <div class="menu-pink round-corner margin-center"  > 
+                    <h3 class="center"> Kamu mendapatkan soal Pink!!  </h3>
+                </div>
+            </div> -->
+            <div id="gotSoalGreen" style="margin-top: 20px">
+
+            </div>
+        </div>
+    </div>
+ <!-- display soal -->
+ <div id="soalContainer">
+        <div id="soalPink" style="display: none;">
+            <div class="soal-iframe">
+                <iframe id="soalPink1" src="https://docs.google.com/forms/d/e/1FAIpQLSeMU1-oPMljtfHIzPKZ7p9GsdgSQ2bW1fvvrkjzcd4XPSluGw/viewform?embedded=true" width="640" height="2088" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
+            </div>
+            <div class="menu-pink round-corner margin-center">
+                <h3 class="center"> Scroll ke atas untuk kembali ke soal </h3>
+            </div>
+        </div>
+        <div id="soalGreen" style="display: none">
+            <div  class="soal-iframe">
+                <iframe id="soalGreen1" src="https://docs.google.com/forms/d/e/1FAIpQLSfvjuJIQG0Mhg8mdnl74Jpel6TAUEKDJ5SoppB5014vSVTRXQ/viewform?embedded=true" width="640" height="2484" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
+            </div>
+            <div class="menu-green round-corner margin-center">
+                <h3 class="center"> Scroll ke atas untuk kembali ke soal </h3>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
