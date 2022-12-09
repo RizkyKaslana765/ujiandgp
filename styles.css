@@ -20,6 +20,13 @@ margin: -7px -5px 0 -5px;
 #contents{
     margin-top: 20px;
 }
+#contents1{
+    margin-top: 20px;
+    display: none;
+}
+#webapp{
+    display: block;
+}
 
 #tempatTombol:active{
     background-color: #2630bb;
@@ -88,6 +95,15 @@ margin: 0px 130px;
 }
 .soal-iframe{
     margin: 0 350px;
+}
+@media all and (display-mode: standalone) {
+    #contents1{
+        display: block;
+    }
+
+    #webapp{ 
+        display: none;
+    }
 }
 @media screen and (max-width: 970px) {
     .margin-center{
