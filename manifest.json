@@ -1,7 +1,7 @@
 {
   "name": "Remed DGP",
   "short-name": "Remed",
-  "start_url": "/index.html",
+  "start_url": "/remed.html",
   "scope": ".", 
   "display": "standalone",
   "background_color": "#fff",
