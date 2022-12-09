@@ -49,6 +49,14 @@ padding: 10px;
 background-color: #19b46c;
 padding: 10px;
 }
+.menu-blue{
+background-color: #03a9f4;
+padding: 10px;
+}
+.menu-orange{
+background-color: #ff9800;
+padding: 10px;
+}
 .circle{
 border-radius: 30px;
 
