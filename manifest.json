@@ -1,0 +1,26 @@
+{
+  "name": "Remed DGP",
+  "short-name": "Remed",
+  "start_url": "/index.html",
+  "scope": ".", 
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3A1AB1",
+  "description": "deskripsi dari apps",
+  "dir": "ltr",
+  "lang": "en-US",
+  "orientation": "portrait-primary",
+  "icons": [
+     {
+       "src": "remed-logo.png",
+       "type": "image/png",
+       "size": "48x48"
+     },
+     {
+       "src": "remed-logo.png",
+       "type": "image/png",
+       "size": "64x64"
+     }
+   ],
+  "prefer_related_applications": "false",
+}
