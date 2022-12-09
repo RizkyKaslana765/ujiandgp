@@ -1,4 +1,4 @@
-var countdown = new Date("Dec 09, 2022 13:00:00").getTime();
+var countdown = new Date("Dec 09, 2022 12:00:00").getTime();
 var myfunc = setInterval(function() {
 
     var now = new Date().getTime();
